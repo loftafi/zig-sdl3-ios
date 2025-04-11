@@ -1,0 +1,16 @@
+.zig-cache
+zig-out
+.DS_Store
+
+ios/cc/libcc-ios.a
+
+.DS_Store
+*.swp
+*~.nib
+
+build/
+project.xcworkspace/
+xcuserdata/
+*.pbxuser
+*.perspective
+*.perspectivev3

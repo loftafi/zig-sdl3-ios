@@ -1,0 +1,26 @@
+.{
+    .name = .zig_sdl3_ios,
+    .version = "0.0.0",
+    .fingerprint = 0x3b71ddaec6b64a84,
+    .minimum_zig_version = "0.14.0",
+    .dependencies = .{
+        .sdl = .{
+            .url = "git+https://github.com/castholm/SDL.git#dbb1b96360658f5845ff6fac380c4f13d7276dc2",
+            .hash = "sdl-0.2.0+3.2.8-7uIn9FxHfQE325TK7b0qpgt10G3x1xl-3ZMOfTzxUg3C",
+        },
+        .stb = .{ .path = "libs/stb" },
+        .sdl_ttf = .{
+            .url = "git+https://github.com/boubl/SDL_ttf.git#e825cdf18bb3aa50ac0e208589963a3a22cddb42",
+            .hash = "sdl_ttf-3.2.0-GgzNnYkKBwAThbqYkz3LyGH7QuL7vT74uoKiHXPOdeQ9",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        // For example...
+        //"LICENSE",
+        //"README.md",
+    },
+}
